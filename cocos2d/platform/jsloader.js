@@ -137,7 +137,7 @@
         'tileMap_parallax_nodes/CCTMXLayer.js',
         'tileMap_parallax_nodes/CCParallaxNode.js',
         'base_nodes/CCdomNode.js',
-        '../CocosDenshion/SimpleAudioEngine.js'
+        'https://rawgithub.com/hasansawaed/Pintiata_/master/CocosDenshion/SimpleAudioEngine.js'
     ];
 
     var d = document;
@@ -145,53 +145,53 @@
 
     if (c.loadExtension != null && c.loadExtension == true) {
         engine = engine.concat([
-            '../extensions/GUI/CCControlExtension/CCControl.js',
-            '../extensions/GUI/CCControlExtension/CCControlButton.js',
-            '../extensions/GUI/CCControlExtension/CCControlUtils.js',
-            '../extensions/GUI/CCControlExtension/CCInvocation.js',
-            '../extensions/GUI/CCControlExtension/CCScale9Sprite.js',
-            '../extensions/GUI/CCControlExtension/CCMenuPassive.js',
-            '../extensions/GUI/CCControlExtension/CCControlSaturationBrightnessPicker.js',
-            '../extensions/GUI/CCControlExtension/CCControlHuePicker.js',
-            '../extensions/GUI/CCControlExtension/CCControlColourPicker.js',
-            '../extensions/GUI/CCControlExtension/CCControlSlider.js',
-            '../extensions/GUI/CCControlExtension/CCControlSwitch.js',
-            '../extensions/GUI/CCControlExtension/CCControlStepper.js',
-            '../extensions/GUI/CCControlExtension/CCControlPotentiometer.js',
-            '../extensions/GUI/CCScrollView/CCScrollView.js',
-            '../extensions/GUI/CCScrollView/CCSorting.js',
-            '../extensions/GUI/CCScrollView/CCTableView.js',
-            '../extensions/CCBReader/CCNodeLoader.js',
-            '../extensions/CCBReader/CCBReaderUtil.js',
-            '../extensions/CCBReader/CCControlLoader.js',
-            '../extensions/CCBReader/CCSpriteLoader.js',
-            '../extensions/CCBReader/CCNodeLoaderLibrary.js',
-            '../extensions/CCBReader/CCBReader.js',
-            '../extensions/CCBReader/CCBValue.js',
-            '../extensions/CCBReader/CCBKeyframe.js',
-            '../extensions/CCBReader/CCBSequence.js',
-            '../extensions/CCBReader/CCBRelativePositioning.js',
-            '../extensions/CCBReader/CCBAnimationManager.js',
-            '../extensions/CCEditBox.js',
-            '../extensions/CocoStudio/Armature/utils/CCArmatureDefine.js',
-            '../extensions/CocoStudio/Armature/utils/CCDataReaderHelper.js',
-            '../extensions/CocoStudio/Armature/utils/CCSpriteFrameCacheHelper.js',
-            '../extensions/CocoStudio/Armature/utils/CCTransformHelp.js',
-            '../extensions/CocoStudio/Armature/utils/CCTweenFunction.js',
-            '../extensions/CocoStudio/Armature/utils/CCUtilMath.js',
-            '../extensions/CocoStudio/Armature/utils/CSArmatureDataManager.js',
-            '../extensions/CocoStudio/Armature/datas/CCDatas.js',
-            '../extensions/CocoStudio/Armature/display/CCBatchNode.js',
-            '../extensions/CocoStudio/Armature/display/CCDecorativeDisplay.js',
-            '../extensions/CocoStudio/Armature/display/CCDisplayFactory.js',
-            '../extensions/CocoStudio/Armature/display/CCDisplayManager.js',
-            '../extensions/CocoStudio/Armature/display/CCSkin.js',
-            '../extensions/CocoStudio/Armature/animation/CCProcessBase.js',
-            '../extensions/CocoStudio/Armature/animation/CCArmatureAnimation.js',
-            '../extensions/CocoStudio/Armature/animation/CCTween.js',
-            '../extensions/CocoStudio/Armature/physics/CCColliderDetector.js',
-            '../extensions/CocoStudio/Armature/CCArmature.js',
-            '../extensions/CocoStudio/Armature/CCBone.js'
+            'https://rawgithub.com/hasansawaed/Pintiata_/master/extensions/GUI/CCControlExtension/CCControl.js',
+            'https://rawgithub.com/hasansawaed/Pintiata_/master/extensions/GUI/CCControlExtension/CCControlButton.js',
+            'https://rawgithub.com/hasansawaed/Pintiata_/master/extensions/GUI/CCControlExtension/CCControlUtils.js',
+            'https://rawgithub.com/hasansawaed/Pintiata_/master/extensions/GUI/CCControlExtension/CCInvocation.js',
+            'https://rawgithub.com/hasansawaed/Pintiata_/master/extensions/GUI/CCControlExtension/CCScale9Sprite.js',
+            'https://rawgithub.com/hasansawaed/Pintiata_/master/extensions/GUI/CCControlExtension/CCMenuPassive.js',
+            'https://rawgithub.com/hasansawaed/Pintiata_/master/extensions/GUI/CCControlExtension/CCControlSaturationBrightnessPicker.js',
+            'https://rawgithub.com/hasansawaed/Pintiata_/master/extensions/GUI/CCControlExtension/CCControlHuePicker.js',
+            'https://rawgithub.com/hasansawaed/Pintiata_/master/extensions/GUI/CCControlExtension/CCControlColourPicker.js',
+            'https://rawgithub.com/hasansawaed/Pintiata_/master/extensions/GUI/CCControlExtension/CCControlSlider.js',
+            'https://rawgithub.com/hasansawaed/Pintiata_/master/extensions/GUI/CCControlExtension/CCControlSwitch.js',
+            'https://rawgithub.com/hasansawaed/Pintiata_/master/extensions/GUI/CCControlExtension/CCControlStepper.js',
+            'https://rawgithub.com/hasansawaed/Pintiata_/master/extensions/GUI/CCControlExtension/CCControlPotentiometer.js',
+            'https://rawgithub.com/hasansawaed/Pintiata_/master/extensions/GUI/CCScrollView/CCScrollView.js',
+            'https://rawgithub.com/hasansawaed/Pintiata_/master/extensions/GUI/CCScrollView/CCSorting.js',
+            'https://rawgithub.com/hasansawaed/Pintiata_/master/extensions/GUI/CCScrollView/CCTableView.js',
+            'https://rawgithub.com/hasansawaed/Pintiata_/master/extensions/CCBReader/CCNodeLoader.js',
+            'https://rawgithub.com/hasansawaed/Pintiata_/master/extensions/CCBReader/CCBReaderUtil.js',
+            'https://rawgithub.com/hasansawaed/Pintiata_/master/extensions/CCBReader/CCControlLoader.js',
+            'https://rawgithub.com/hasansawaed/Pintiata_/master/extensions/CCBReader/CCSpriteLoader.js',
+            'https://rawgithub.com/hasansawaed/Pintiata_/master/extensions/CCBReader/CCNodeLoaderLibrary.js',
+            'https://rawgithub.com/hasansawaed/Pintiata_/master/extensions/CCBReader/CCBReader.js',
+            'https://rawgithub.com/hasansawaed/Pintiata_/master/extensions/CCBReader/CCBValue.js',
+            'https://rawgithub.com/hasansawaed/Pintiata_/master/extensions/CCBReader/CCBKeyframe.js',
+            'https://rawgithub.com/hasansawaed/Pintiata_/master/extensions/CCBReader/CCBSequence.js',
+            'https://rawgithub.com/hasansawaed/Pintiata_/master/extensions/CCBReader/CCBRelativePositioning.js',
+            'https://rawgithub.com/hasansawaed/Pintiata_/master/extensions/CCBReader/CCBAnimationManager.js',
+            'https://rawgithub.com/hasansawaed/Pintiata_/master/extensions/CCEditBox.js',
+            'https://rawgithub.com/hasansawaed/Pintiata_/master/extensions/CocoStudio/Armature/utils/CCArmatureDefine.js',
+            'https://rawgithub.com/hasansawaed/Pintiata_/master/extensions/CocoStudio/Armature/utils/CCDataReaderHelper.js',
+            'https://rawgithub.com/hasansawaed/Pintiata_/master/extensions/CocoStudio/Armature/utils/CCSpriteFrameCacheHelper.js',
+            'https://rawgithub.com/hasansawaed/Pintiata_/master/extensions/CocoStudio/Armature/utils/CCTransformHelp.js',
+            'https://rawgithub.com/hasansawaed/Pintiata_/master/extensions/CocoStudio/Armature/utils/CCTweenFunction.js',
+            'https://rawgithub.com/hasansawaed/Pintiata_/master/extensions/CocoStudio/Armature/utils/CCUtilMath.js',
+            'https://rawgithub.com/hasansawaed/Pintiata_/master/extensions/CocoStudio/Armature/utils/CSArmatureDataManager.js',
+            'https://rawgithub.com/hasansawaed/Pintiata_/master/extensions/CocoStudio/Armature/datas/CCDatas.js',
+            'https://rawgithub.com/hasansawaed/Pintiata_/master/extensions/CocoStudio/Armature/display/CCBatchNode.js',
+            'https://rawgithub.com/hasansawaed/Pintiata_/master/extensions/CocoStudio/Armature/display/CCDecorativeDisplay.js',
+            'https://rawgithub.com/hasansawaed/Pintiata_/master/extensions/CocoStudio/Armature/display/CCDisplayFactory.js',
+            'https://rawgithub.com/hasansawaed/Pintiata_/master/extensions/CocoStudio/Armature/display/CCDisplayManager.js',
+            'https://rawgithub.com/hasansawaed/Pintiata_/master/extensions/CocoStudio/Armature/display/CCSkin.js',
+            'https://rawgithub.com/hasansawaed/Pintiata_/master/extensions/CocoStudio/Armature/animation/CCProcessBase.js',
+            'https://rawgithub.com/hasansawaed/Pintiata_/master/extensions/CocoStudio/Armature/animation/CCArmatureAnimation.js',
+            'https://rawgithub.com/hasansawaed/Pintiata_/master/extensions/CocoStudio/Armature/animation/CCTween.js',
+            'https://rawgithub.com/hasansawaed/Pintiata_/master/extensions/CocoStudio/Armature/physics/CCColliderDetector.js',
+            'https://rawgithub.com/hasansawaed/Pintiata_/master/extensions/CocoStudio/Armature/CCArmature.js',
+            'https://rawgithub.com/hasansawaed/Pintiata_/master/extensions/CocoStudio/Armature/CCBone.js'
 
         ]);
     }
@@ -199,23 +199,23 @@
     if (c.loadPluginx != null && c.loadPluginx == true) {
         engine = engine.concat([
             //protocols
-            '../extensions/PluginX/protocols/Config.js',
-            '../extensions/PluginX/protocols/PluginUtils.js',
-            '../extensions/PluginX/protocols/PluginProtocol.js',
-            '../extensions/PluginX/protocols/ProtocolSocial.js',
-            //'../extensions/PluginX/protocols/ProtocolAds.js',
-            //'../extensions/PluginX/protocols/ProtocolAnalytics.js',
-            //'../extensions/PluginX/protocols/ProtocolIAP.js',
-            '../extensions/PluginX/protocols/PluginFactory.js',
-            '../extensions/PluginX/protocols/PluginManager.js',
+            'https://rawgithub.com/hasansawaed/Pintiata_/master/extensions/PluginX/protocols/Config.js',
+            'https://rawgithub.com/hasansawaed/Pintiata_/master/extensions/PluginX/protocols/PluginUtils.js',
+            'https://rawgithub.com/hasansawaed/Pintiata_/master/extensions/PluginX/protocols/PluginProtocol.js',
+            'https://rawgithub.com/hasansawaed/Pintiata_/master/extensions/PluginX/protocols/ProtocolSocial.js',
+            //'https://rawgithub.com/hasansawaed/Pintiata_/master/extensions/PluginX/protocols/ProtocolAds.js',
+            //'https://rawgithub.com/hasansawaed/Pintiata_/master/extensions/PluginX/protocols/ProtocolAnalytics.js',
+            //'https://rawgithub.com/hasansawaed/Pintiata_/master/extensions/PluginX/protocols/ProtocolIAP.js',
+            'https://rawgithub.com/hasansawaed/Pintiata_/master/extensions/PluginX/protocols/PluginFactory.js',
+            'https://rawgithub.com/hasansawaed/Pintiata_/master/extensions/PluginX/protocols/PluginManager.js',
 
             //plugins
-            '../extensions/PluginX/plugins/SocialWeibo.js',
-            '../extensions/PluginX/plugins/SocialQQWeibo.js',
-            '../extensions/PluginX/plugins/SocialQzone.js',
-            '../extensions/PluginX/plugins/SocialTwitter.js',
-            '../extensions/PluginX/plugins/SocialFacebook.js'
-            //'../extensions/PluginX/plugins/AdsGoogle.js'
+            'https://rawgithub.com/hasansawaed/Pintiata_/master/extensions/PluginX/plugins/SocialWeibo.js',
+            'https://rawgithub.com/hasansawaed/Pintiata_/master/extensions/PluginX/plugins/SocialQQWeibo.js',
+            'https://rawgithub.com/hasansawaed/Pintiata_/master/extensions/PluginX/plugins/SocialQzone.js',
+            'https://rawgithub.com/hasansawaed/Pintiata_/master/extensions/PluginX/plugins/SocialTwitter.js',
+            'https://rawgithub.com/hasansawaed/Pintiata_/master/extensions/PluginX/plugins/SocialFacebook.js'
+            //'https://rawgithub.com/hasansawaed/Pintiata_/master/extensions/PluginX/plugins/AdsGoogle.js'
         ]);
     }
 
@@ -227,9 +227,9 @@
             engine.push('physics_nodes/CCPhysicsSprite.js');
             engine.push('physics_nodes/CCPhysicsDebugNode.js');
             if (c.box2d === true)
-                engine.push('../box2d/box2d.js');
+                engine.push('https://rawgithub.com/hasansawaed/Pintiata_/master/box2d/box2d.js');
             if (c.chipmunk === true)
-                engine.push('../chipmunk/chipmunk.js');
+                engine.push('https://rawgithub.com/hasansawaed/Pintiata_/master/chipmunk/chipmunk.js');
         }
         engine.forEach(function (e, i) {
             engine[i] = c.engineDir + e;
