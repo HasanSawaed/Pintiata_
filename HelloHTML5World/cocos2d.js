@@ -33,9 +33,9 @@
         showFPS:true,
         frameRate:60,
         loadExtension:false,
-        renderMode:0,       //Choose of RenderMode: 0(default), 1(Canvas only), 2(WebGL only)
+        renderMode:1,       //Choose of RenderMode: 0(default), 1(Canvas only), 2(WebGL only)
         tag:'gameCanvas', //the dom element to run cocos2d on
-        engineDir:'https://rawgithub.com/hasansawaed/Pintiata_/master/cocos2d/',
+        engineDir:'../cocos2d/',
         //SingleEngineFile:'',
         appFiles:[
             'src/resource.js',
@@ -53,7 +53,7 @@
         p.style.border = 'none';
         p.insertBefore(s);
 
-        d.body.style.background = '#ffffff';
+        d.body.style.background = '#ff00ff';
         return;
     }
 
@@ -66,7 +66,7 @@
             s.src = c.SingleEngineFile;
         }
         else if (c.engineDir && !c.SingleEngineFile) {
-            // s.src = "https://rawgithub.com/hasansawaed/Pintiata_/master/cocos2d/platform/jsloader.js";
+            s.src = "https://rawgithub.com/hasansawaed/Pintiata_/master/cocos2d/platform/jsloader.js";
         }
         else {
             alert('You must specify either the single engine file OR the engine directory in "cocos2d.js"');
