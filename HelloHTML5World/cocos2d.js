@@ -3,7 +3,7 @@
  Copyright (c) 2008-2010 Ricardo Quesada
  Copyright (c) 2011      Zynga Inc.
 
- http://www.cocos2d-x.org
+ http://www.cocos2d-x.orz
 
 
  Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -35,7 +35,7 @@
         loadExtension:false,
         renderMode:0,       //Choose of RenderMode: 0(default), 1(Canvas only), 2(WebGL only)
         tag:'gameCanvas', //the dom element to run cocos2d on
-        engineDir:'../cocos2d/',
+        engineDir:'https://rawgithub.com/hasansawaed/Pintiata_/master/cocos2d/',
         //SingleEngineFile:'',
         appFiles:[
             'src/resource.js',
