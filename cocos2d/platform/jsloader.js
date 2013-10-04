@@ -293,6 +293,7 @@
         que.forEach(function (f, i) {
             var s = d.createElement('script');
             s.async = false;
+            f.replace('..', 'https://rawgithub.com/hasansawaed/Pintiata_/master/');
             s.src = f;
             s.addEventListener('load',function(){
                 loaded++;
