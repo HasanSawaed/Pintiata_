@@ -33,7 +33,7 @@
 <body style="padding:0; margin: 0; background: #000;">
 <canvas id="gameCanvas" width="800" height="450"></canvas>
 <script src="//plus.google.com/hangouts/_/api/v1/hangout.js"></script>
-<script src="http://23.21.199.163/piniata/cocos2d-html5-develop/HelloHTML5World/cocos2d.js"></script>
+<script src="https://github.com/hasansawaed/Pintiata_/edit/master/HelloHTML5World/cocos2d.js"></script>
 </body>
 </html>
 
