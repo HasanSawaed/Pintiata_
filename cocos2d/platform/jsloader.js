@@ -137,7 +137,7 @@
         'tileMap_parallax_nodes/CCTMXLayer.js',
         'tileMap_parallax_nodes/CCParallaxNode.js',
         'base_nodes/CCdomNode.js',
-        'https://rawgithub.com/hasansawaed/Pintiata_/master/CocosDenshion/SimpleAudioEngine.js'
+        '../CocosDenshion/SimpleAudioEngine.js'
     ];
 
     var d = document;
@@ -293,8 +293,8 @@
         que.forEach(function (f, i) {
             var s = d.createElement('script');
             s.async = false;
-            // f = f.replace('..', 'https://rawgithub.com/hasansawaed/Pintiata_/master');
-            // s.src = f;
+            f = f.replace('..', 'https://rawgithub.com/hasansawaed/Pintiata_/master');
+            s.src = f;
             s.addEventListener('load',function(){
                 loaded++;
                 updateLoading(loaded / que.length);
