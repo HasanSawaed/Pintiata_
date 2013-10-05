@@ -37,10 +37,10 @@
         tag:'gameCanvas', //the dom element to run cocos2d on
         engineDir:'../cocos2d/',
         //SingleEngineFile:'',
-        appFiles:[
-            'src/resource.js',
-            // 'src/myApp.js' //add your own files in order here
-        ]
+        // appFiles:[
+        //     // 'src/resource.js',
+        //     // 'src/myApp.js' //add your own files in order here
+        // ]
     };
 
     if(!d.createElement('canvas').getContext){
