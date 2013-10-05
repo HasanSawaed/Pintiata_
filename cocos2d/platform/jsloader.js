@@ -203,9 +203,9 @@
             '../extensions/PluginX/protocols/PluginUtils.js',
             '../extensions/PluginX/protocols/PluginProtocol.js',
             '../extensions/PluginX/protocols/ProtocolSocial.js',
-            //'../extensions/PluginX/protocols/ProtocolAds.js',
-            //'../extensions/PluginX/protocols/ProtocolAnalytics.js',
-            //'../extensions/PluginX/protocols/ProtocolIAP.js',
+            '../extensions/PluginX/protocols/ProtocolAds.js',
+            '../extensions/PluginX/protocols/ProtocolAnalytics.js',
+            '../extensions/PluginX/protocols/ProtocolIAP.js',
             '../extensions/PluginX/protocols/PluginFactory.js',
             '../extensions/PluginX/protocols/PluginManager.js',
 
@@ -215,7 +215,7 @@
             '../extensions/PluginX/plugins/SocialQzone.js',
             '../extensions/PluginX/plugins/SocialTwitter.js',
             '../extensions/PluginX/plugins/SocialFacebook.js'
-            //'../extensions/PluginX/plugins/AdsGoogle.js'
+            // '../extensions/PluginX/plugins/AdsGoogle.js'
         ]);
     }
 
@@ -293,8 +293,8 @@
         que.forEach(function (f, i) {
             var s = d.createElement('script');
             s.async = false;
-            f = f.replace('..', 'https://rawgithub.com/hasansawaed/Pintiata_/master');
-            s.src = f;
+            // f = f.replace('..', 'https://rawgithub.com/hasansawaed/Pintiata_/master');
+            // s.src = f;
             s.addEventListener('load',function(){
                 loaded++;
                 updateLoading(loaded / que.length);
