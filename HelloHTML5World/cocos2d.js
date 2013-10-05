@@ -38,7 +38,7 @@
         engineDir:'../cocos2d/',
         //SingleEngineFile:'',
         // appFiles:[
-        //     // 'src/resource.js',
+        //     'src/resource.js',
         //     // 'src/myApp.js' //add your own files in order here
         // ]
     };
@@ -66,7 +66,8 @@
             s.src = c.SingleEngineFile;
         }
         else if (c.engineDir && !c.SingleEngineFile) {
-            s.src = "https://rawgithub.com/hasansawaed/Pintiata_/master/cocos2d/platform/jsloader.js";
+            // s.src = "https://rawgithub.com/hasansawaed/Pintiata_/master/cocos2d/platform/jsloader.js";
+            s.src = "../jsloader.js";
         }
         else {
             alert('You must specify either the single engine file OR the engine directory in "cocos2d.js"');
