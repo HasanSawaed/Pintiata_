@@ -137,7 +137,7 @@
         'tileMap_parallax_nodes/CCTMXLayer.js',
         'tileMap_parallax_nodes/CCParallaxNode.js',
         'base_nodes/CCdomNode.js',
-        'https://rawgithub.com/hasansawaed/Pintiata_/master/CocosDenshion/SimpleAudioEngine.js'
+        // 'https://rawgithub.com/hasansawaed/Pintiata_/master/CocosDenshion/SimpleAudioEngine.js'
     ];
 
     var d = document;
